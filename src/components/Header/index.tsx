@@ -8,7 +8,7 @@ export default function Header() {
             <p className="text-slate-200 text-2xl">sunnyside</p>
             <img src={IconBurger} alt="icon-hamburger" />
             </div>
-            <Title />
+            <Title text="we are" world="creatives"/>
         </div>
     )
 }
