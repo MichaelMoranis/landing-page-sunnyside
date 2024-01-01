@@ -13,8 +13,8 @@ export default function Cards() {
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, nisi. Voluptatibusporis animi minus dolor debitis delectus fugiat consectetur quisquam!</p>
             </div>
             <div>
-                <h4>Lorem ipsum, dolor sit amet</h4>
-                <h4>Lorem ipsum, dolor sit amet</h4>
+                <h4 className="font-bold text-2xl text-slate-950">Emily R.</h4>
+                <h4 className="text-slate-500">marketing, director</h4>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center pt-4 pb-4 text-center mx-2 gap-4">
@@ -25,8 +25,8 @@ export default function Cards() {
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, nisi. Voluptatibusporis animi minus dolor debitis delectus fugiat consectetur quisquam!</p>
             </div>
             <div>
-                <h4>Lorem ipsum, dolor sit amet</h4>
-                <h4>Lorem ipsum, dolor sit amet</h4>
+                <h4 className="font-bold text-2xl text-slate-950">Jennie F</h4>
+                <h4 className="text-slate-500">Businnes Owner</h4>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center pt-4 pb-4 text-center mx-2 gap-4">
@@ -37,8 +37,8 @@ export default function Cards() {
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, nisi. Voluptatibusporis animi minus dolor debitis delectus fugiat consectetur quisquam!</p>
             </div>
             <div>
-                <h4>Lorem ipsum, dolor sit amet</h4>
-                <h4>Lorem ipsum, dolor sit amet</h4>
+                <h4 className="font-bold text-2xl text-slate-950">Thomas S</h4>
+                <h4 className="text-slate-500">Chief Operating Officer</h4>
             </div>
           </div>
         </>
