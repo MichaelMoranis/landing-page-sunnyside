@@ -5,6 +5,8 @@ import graphicdesign from "@assets/images/mobile/image-graphic-design.jpg"
 import photografy from "@assets/images/mobile/image-photography.jpg"
 import ComponentImage from "@components/ComponentImage"
 import ComponentText from "@components/ComponentText"
+import Subtitle from "@components/Subtitle"
+import Cards from "@components/Cards"
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
       <ComponentImage image={graphicdesign}/>
       <ComponentText />
       <ComponentImage image={photografy}/>
+      <Subtitle />
+      <Cards />
     </>
   )
 }
