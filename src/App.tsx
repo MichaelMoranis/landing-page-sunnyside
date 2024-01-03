@@ -7,6 +7,7 @@ import ComponentImage from "@components/ComponentImage"
 import ComponentText from "@components/ComponentText"
 import Subtitle from "@components/Subtitle"
 import Cards from "@components/Cards"
+import ImagesBanner from "@components/ImagesBanner"
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <ComponentImage image={photografy}/>
       <Subtitle />
       <Cards />
+      <ImagesBanner />
     </>
   )
 }
