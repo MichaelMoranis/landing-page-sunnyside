@@ -29,17 +29,17 @@ import sugar from "@assets/images/mobile/image-gallery-sugar-cubes.jpg";
 
 export default function ImagesBanner() {
   return (
-    <div className="flex items-center justify-center flex-wrap mb-2 mt-2">
+    <div className="flex flex-col">
       {/* {arrImages.map((image, index) => (
         <img className="h-72 w-72" key={index} src={image.src} alt={image.alt} />
       ))} */}
       <div className="flex justify-center items-center">
-        <img className="h-48 w-44" src={milkbottles} alt="" />
-        <img className="h-48 w-44"  src={cone} alt="" />
+        <img className="h-48 w-60" src={milkbottles} alt="" />
+        <img className="h-48 w-60"  src={cone} alt="" />
       </div>
       <div className="flex justify-center items-center">
-        <img className="h-48 w-44"  src={sugar} alt="" />
-        <img className="h-48 w-44"  src={orange} alt="" />
+        <img className="h-48 w-60"  src={sugar} alt="" />
+        <img className="h-48 w-60"  src={orange} alt="" />
       </div>
     </div>
   );
